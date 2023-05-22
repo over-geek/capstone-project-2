@@ -300,3 +300,14 @@ h6 {
 #desktop-sponsors {
   display: none;
 }
+
+/* Footer Section */
+#footer-desktop {
+  display: none;
+}
+
+.footer-container > div:nth-child(1) {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
