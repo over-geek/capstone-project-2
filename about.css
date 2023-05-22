@@ -147,3 +147,23 @@
 .footer-container > div {
   width: 50%;
 }
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
+  .summits {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 234px;
+    column-gap: 25px;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .sponsors {
+    display: none;
+  }
+
+  .bg-dark {
+    background-color: #2e2e2e;
+    color: #fff;
+  }
+}

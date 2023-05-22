@@ -300,3 +300,163 @@ h6 {
 #desktop-sponsors {
   display: none;
 }
+
+/* Footer Section */
+#footer-desktop {
+  display: none;
+}
+
+.footer-container > div:nth-child(1) {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
+  .mobile-main-menu {
+    display: none;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .overlay-show {
+    display: none;
+  }
+
+  /* Header Section */
+  header {
+    display: block;
+    width: 100%;
+    position: fixed;
+  }
+
+  #top-bar {
+    width: 100%;
+    background-color: #3e3e3e;
+    padding: 0.8% 14% 0.8% 0;
+  }
+
+  #top-bar ul {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+  }
+
+  #program a {
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 60px;
+  }
+
+  #top-bar ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  header .logo-img-container img,
+  footer .logo-img-container img {
+    width: 40px;
+  }
+
+  header .logo-img-container h2,
+  footer .logo-img-container h2 {
+    font-size: 1rem;
+  }
+
+  #navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+  }
+
+  #navbar .logo-img-container {
+    text-decoration: none;
+    color: #000;
+  }
+
+  #navbar nav ul {
+    display: flex;
+    gap: 40px;
+  }
+
+  #navbar nav ul li a {
+    text-decoration: none;
+    color: #868686;
+  }
+
+  #main-section {
+    background-size: cover;
+  }
+
+  /* Program Section */
+  .program-items {
+    width: 80%;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .program-items > div {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    text-align: center;
+  }
+
+  #join-btn {
+    display: none;
+  }
+
+  /* Speakers Section */
+  #speaker-card-container {
+    width: 80%;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(3, auto);
+    column-gap: 18px;
+  }
+
+  /* Sponsors */
+  #desktop-sponsors {
+    display: block;
+    padding: 4% 10%;
+    background-color: #414246;
+    color: #fff;
+  }
+
+  #sponsor-wrapper {
+    text-align: center;
+    width: 100%;
+  }
+
+  #sponsor-wrapper .dash {
+    margin: 12px auto;
+  }
+
+  #sponsor-wrapper > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+  }
+
+  /* Footer Section */
+  #footer-desktop {
+    display: block;
+  }
+
+  .footer-container {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .footer-section {
+    padding: 40px 0;
+  }
+}

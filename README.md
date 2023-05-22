@@ -102,7 +102,7 @@ After you're finished please remove all the comments and instructions!
 
 You can visit the live website over here
 
-- [Live Demo Link](https://over-geek.github.io/capstone-project.github.io/)
+- [Live Demo Link](https://over-geek.github.io/capstone-project2.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
