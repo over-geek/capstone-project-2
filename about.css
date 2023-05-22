@@ -84,3 +84,35 @@
 .logo-img-container img {
   width: 100px;
 }
+
+/* Summits */
+#past-summits {
+  border-top: 1px solid #d7d7d7;
+}
+
+.summits {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 234px 234px;
+  grid-template-columns: 100%;
+  row-gap: 20px;
+}
+
+.summit > div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 0, 0, 0.5);
+  color: #fff;
+}
+
+#summit-1 {
+  background-image: url(asset/summit-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#summit-2 {
+  background-image: url(asset/summit-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
