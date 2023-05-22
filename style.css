@@ -202,3 +202,54 @@ h1 {
   font-weight: 700;
   color: #868686;
 }
+
+/* Program Section */
+#program {
+  padding-top: 31px;
+  padding-bottom: 31px;
+  background-color: #282b32;
+  color: #fff;
+  background-image: url(asset/diamond.png);
+}
+
+.dash {
+  background-color: #a04038;
+  width: 30px;
+  height: 3px;
+  border: none;
+  margin: 15px 0 40px 0;
+}
+
+.program-items {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.program-items > div {
+  display: grid;
+  grid-template-columns: 20% 20% 60%;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 15px 9px;
+  align-items: center;
+}
+
+h6 {
+  color: #ff5438;
+  font-size: 15px;
+}
+
+.btn {
+  padding: 20px 50px;
+  background-color: #ff4f38;
+  margin-top: 40px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+#program a {
+  display: none;
+}
