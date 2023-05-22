@@ -253,3 +253,49 @@ h6 {
 #program a {
   display: none;
 }
+
+/* Featured Speakers */
+#speaker-section {
+  padding-top: 15px;
+  padding-bottom: 33px;
+}
+
+#speaker-card-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(6, 1fr);
+  row-gap: 18px;
+}
+
+.speaker-info {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100px auto;
+  grid-template-rows: auto;
+  column-gap: 15px;
+}
+
+.speaker-info span {
+  color: #f78c89;
+}
+
+.speaker-info .dash {
+  background-color: #d9d9d9;
+  margin: 6px 0 13px 0;
+}
+
+.speaker-img-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.speaker-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#desktop-sponsors {
+  display: none;
+}
