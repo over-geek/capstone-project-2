@@ -116,3 +116,34 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* Sponsors */
+.sponsors {
+  background-color: #414246;
+  color: #fff;
+}
+
+.sponsors-container > div {
+  width: 100%;
+}
+
+.sponsors-img {
+  width: 50px;
+}
+
+/* Footer Section */
+.footer-container {
+  gap: 20px;
+}
+
+.footer-container .logo-img-container img {
+  width: 40px;
+}
+
+.footer-container .logo-img-container h2 {
+  font-size: 1rem;
+}
+
+.footer-container > div {
+  width: 50%;
+}
