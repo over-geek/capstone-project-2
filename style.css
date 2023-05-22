@@ -9,3 +9,22 @@
 body {
   font-family: 'Lato', sans-serif;
 }
+
+section {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+/* Global Classes */
+.flex-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
