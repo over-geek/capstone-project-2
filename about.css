@@ -132,20 +132,12 @@
 }
 
 /* Footer Section */
-.footer-container {
-  gap: 20px;
-}
-
 .footer-container .logo-img-container img {
   width: 40px;
 }
 
 .footer-container .logo-img-container h2 {
   font-size: 1rem;
-}
-
-.footer-container > div {
-  width: 50%;
 }
 
 /* Media Queries */
@@ -165,5 +157,9 @@
   .bg-dark {
     background-color: #2e2e2e;
     color: #fff;
+  }
+
+  .footer-container > div {
+    width: 50%;
   }
 }

@@ -307,9 +307,7 @@ h6 {
 }
 
 .footer-container > div:nth-child(1) {
-  width: 50%;
-  display: flex;
-  justify-content: end;
+  width: 30%;
 }
 
 /* Media Queries */
@@ -458,5 +456,13 @@ h6 {
 
   .footer-section {
     padding: 40px 0;
+  }
+
+  .footer-container {
+    justify-content: start;
+  }
+
+  .footer-container .logo-img-container{
+    width: 30%;
   }
 }
