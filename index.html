@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campaign Gaming Summit</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="asset/mouse.png">
+</head>
+<body>
+    <div id="overlay"></div>
+    <div id="mobile-menu" class="mobile-main-menu flex-col">
+        <img src="asset/fire.png" alt="">
+        <ul class="flex-col">
+            <li class="flex-row"><a href="index.html" class="menu-item">Home</a></li>
+            <li class="flex-row"><a href="about.html" id="link1" class="menu-item">About</a></li>
+            <li class="flex-row"><a href="#program" class="menu-item">Program</a></li>
+            <li class="flex-row"><a href="#speaker-section" class="menu-item">Speakers</a></li>
+            <li class="flex-row"><a href="about.html" class="menu-item">Sponsors</a></li>
+            <li class="flex-row"><a href="#" class="menu-item">News</a></li>
+        </ul>
+    </div>
+    <header>
+        <div id="top-bar">
+            <ul>
+                <li>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li><a href="#">English</a></li>
+                <li><a href="#">My Page</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </div>
+        <nav id="navbar">
+            <a href="index.html" class="logo-img-container">
+                <img src="asset/fire.png" alt="logo">
+                <h2>
+                    OG Gaming
+                    <br> 
+                    Summit 2023
+                </h2>
+            </a>
+            <div>
+                <ul>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="#program">Program</a>
+                    </li>
+                    <li>
+                        <a href="#speaker-section">Speakers</a>
+                    </li>
+                    <li>
+                        <a href="#desktop-sponsors">Sponsor</a>
+                    </li>
+                    <li>
+                        <a href="#">OG Campaign</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <button id="menu-btn-open" class="hamburger" type="button">
+        <span class="hamburger-top"></span>
+        <span class="hamburger-middle"></span>
+        <span class="hamburger-bottom"></span>
+    </button type="button">
+    <section id="main-section" class="flex-row">
+        <div class="main flex-col">
+            <div class="heading">
+                <h3>"Hello! Sharing world"</h3>
+                <h1 id="heading-text">
+                    OG Campaign Gaming <br> 
+                    Summit 2023
+                </h1>
+            </div>
+            <div class="main-text">
+                <p>
+                    Stand in the ashes of a trillion dead souls and ask the ghosts if honor matters. Their silence is your answer.
+                </p>
+            </div>
+            <div id="location">
+                <h2>2023.03.13(MON) ~ 14(TUE)</h2>
+                <p>Movenpick Ambassador Hotel, Accra, Ghana</p>
+            </div>
+        </div>
+    </section>
+    <section id="program" class="flex-col">
+        <h2>Main Program</h2>
+        <hr class="dash">
+        <div class="program-items">
+            <div>
+                <img src="asset/speaker.svg" alt="speaker">
+                <h6>Lecture</h6>
+                <p>
+                    Listen to the speakers from various countries about the messages of sharing and opening.
+                </p>
+            </div>
+            <div>
+                <img src="asset/exhibit.svg" alt="speaker">
+                <h6>OV Exhibit</h6>
+                <p>
+                    Listen to the speakers from various countries about the messages of sharing and opening.
+                </p>
+            </div>
+            <div>
+                <img src="asset/forum.svg" alt="speaker">
+                <h6>Forum</h6>
+                <p>
+                    get opportunities to network with CC affiliates around the world, also after the summit.
+                </p>
+            </div>
+            <div>
+                <img src="asset/workshop.svg" alt="speaker">
+                <h6>Workshop</h6>
+                <p>
+                    Listen to the speakers from various countries about the messages of sharing and opening.
+                </p>
+            </div>
+            <div>
+                <img src="asset/network.svg" alt="speaker">
+                <h6>OG Ignite</h6>
+                <p>
+                    get opportunities to network with CC affiliates around the world, also after the summit.
+                </p>
+            </div>
+        </div>
+        <button type="button" id="join-btn" class="btn">Join OV Gaming Summit 2015</button>
+        <a href="#">See the whole program</a>
+    </section>
+    <section id="speaker-section" class="flex-col">
+        <div class="flex-col">
+            <h2>Featured Speakers</h2>
+            <hr class="dash">
+        </div>
+        <div id="speaker-card-container"></div>
+    </section>
+    <section id="desktop-sponsors">
+        <div id="sponsor-wrapper">
+            <h3>Partner</h3>
+            <hr class="dash">
+            <div>
+                <img class="sponsors-img" src="asset/logitech.png" alt="logitech">
+                <img src="asset/redbullcom-logo.svg" alt="redbull">
+                <img src="asset/steam.png" alt="steam">
+                <img src="asset/riot.png" alt="riot">
+                <img class="sponsors-img" src="asset/twitch.png" alt="twitch">
+            </div>
+        </div>
+    </section>
+    <footer id="footer-desktop" class="footer-section">
+        <div class="footer-container flex-row">
+            <div class="logo-img-container">
+                <img src="asset/fire.png" alt="logo">
+                <h2>
+                    OG Gaming
+                    <br> 
+                    Summit 2023
+                </h2>
+            </div>
+            <div class="copyright-text">
+                <p>2023 OV Gaming. Some Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/545083a5e0.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
