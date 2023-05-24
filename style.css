@@ -373,6 +373,10 @@ h6 {
     background-color: #fff;
   }
 
+  .footer-container .logo-img-container {
+    width: 30%;
+  }
+
   #navbar .logo-img-container {
     text-decoration: none;
     color: #000;
@@ -452,17 +456,10 @@ h6 {
   .footer-container {
     width: 60%;
     margin: 0 auto;
+    justify-content: start;
   }
 
   .footer-section {
     padding: 40px 0;
-  }
-
-  .footer-container {
-    justify-content: start;
-  }
-
-  .footer-container .logo-img-container{
-    width: 30%;
   }
 }
