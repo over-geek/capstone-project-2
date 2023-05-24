@@ -140,6 +140,11 @@
   font-size: 1rem;
 }
 
+#footer-mobile .footer-container > div {
+  width: 50%;
+  justify-content: center;
+}
+
 /* Media Queries */
 @media screen and (min-width: 768px) {
   .summits {
