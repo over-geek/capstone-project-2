@@ -67,17 +67,17 @@ const card = document.getElementById('speaker-card-container');
 
 function displayCard(id) {
   card.innerHTML += `
-    <div class="speaker-info">
-    <div class="speaker-img-container">
-      <img src='${speakers[id].image}' />
-    </div>
-    <div>
-      <h3>${speakers[id].name}</h3>
-      <span>${speakers[id].work}</span>
-      <hr class="dash" />
-      <p>${speakers[id].about}</p>
-    </div>
-    </div>
+    <article class="speaker-info">
+      <div class="speaker-img-container">
+        <img src='${speakers[id].image}' />
+      </div>
+      <div>
+        <h3>${speakers[id].name}</h3>
+        <span>${speakers[id].work}</span>
+        <hr class="dash" />
+        <p>${speakers[id].about}</p>
+      </div>
+    </article>
   `;
 }
 
