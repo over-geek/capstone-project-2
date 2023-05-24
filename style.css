@@ -382,12 +382,12 @@ h6 {
     color: #000;
   }
 
-  #navbar nav ul {
+  #navbar ul {
     display: flex;
     gap: 40px;
   }
 
-  #navbar nav ul li a {
+  #navbar ul li a {
     text-decoration: none;
     color: #868686;
   }
